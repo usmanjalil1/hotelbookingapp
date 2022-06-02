@@ -14,7 +14,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-          appBarTheme: AppBarTheme(iconTheme: IconThemeData(color: Vx.black))),
+          appBarTheme:
+              const AppBarTheme(iconTheme: IconThemeData(color: Vx.black))),
       debugShowCheckedModeBanner: false,
       home: NewScreen(),
     );

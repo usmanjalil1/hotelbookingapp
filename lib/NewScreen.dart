@@ -115,7 +115,7 @@ class _NewScreenState extends State<NewScreen>
                   color: Colors.transparent,
                   elevation: 0,
                   child: ListTile(
-                    leading: Icon(
+                    leading: const Icon(
                       Icons.logout,
                       color: Vx.white,
                     ),
@@ -135,7 +135,7 @@ class _NewScreenState extends State<NewScreen>
             indicatorColor: Colors.transparent,
             padding: const EdgeInsets.all(15),
             controller: _Controller,
-            tabs: [
+            tabs: const [
               Icon(Icons.home),
               Icon(Icons.favorite),
               Icon(Icons.pin_drop_outlined),
@@ -147,9 +147,9 @@ class _NewScreenState extends State<NewScreen>
         VxBox(
           child: CupertinoTextField(
             placeholder: "Search Places",
-            placeholderStyle: TextStyle(color: Vx.gray500),
+            placeholderStyle: const TextStyle(color: Vx.gray500),
             suffix: VxBox(
-                child: FittedBox(
+                child: const FittedBox(
               fit: BoxFit.contain,
               child: Icon(
                 Icons.menu_open,
