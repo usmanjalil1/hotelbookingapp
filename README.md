@@ -1,16 +1,7 @@
 # hotelbookingapp
 
-A new Flutter project.
+This is my first UI design in flutter which i designed using velocity_x package
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot (26)](https://user-images.githubusercontent.com/106663169/171628773-abfd04bd-d8c7-49bd-86ec-a385c983a61b.png)
+![Screenshot (27)](https://user-images.githubusercontent.com/106663169/171628790-259b8d34-cb28-49ae-9ec4-7b6d2fa671cf.png)
+![Screenshot (28)](https://user-images.githubusercontent.com/106663169/171628813-47323f34-e4e3-4ea4-9939-970d527fe0e7.png)
