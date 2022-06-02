@@ -1,0 +1,30 @@
+VxSwiper(
+          
+          enlargeCenterPage: true,
+          viewportFraction: 0.7,
+          items: [
+            VxBox(
+                    child: Align(
+              alignment: Alignment.bottomLeft,
+              child: VStack([
+                ZStack([
+                  "Hotel Elite".text.bold.white.xl2.make().py(0).px(10),
+                ]),
+                "Situated in Islamabad, 9 km from Shah Faisal Mosque, Ramada by Wyndham Islamabad features accommodation with a restaurant, free private parking and a fitness centre."
+                    .text
+                    .white
+                    .xs
+                    .make()
+                    .py(2)
+                    .px(10)
+              ]),
+            ))
+                .bgImage(DecorationImage(
+                  image: NetworkImage(img2),
+                  fit: BoxFit.fill,
+                ))
+                .withRounded(value: 25)
+                .make()
+                .p(16),
+          ],
+        )
